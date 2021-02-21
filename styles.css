@@ -1,0 +1,18 @@
+  body {
+  background-color: turquoise;
+  font-family: montserrat;
+  text-align: center;
+}
+
+button {
+  background-color: black;
+  color: turquoise;
+  font-family: montserrat;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: white;
+}
