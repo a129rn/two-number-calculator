@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Two Number Calculator</title>
+    <script src="https://a129rn.github.io/two-number-calculator/two-number.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://a129rn.github.io/two-number-calculator/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Two Number Calculator</h1>
+    <h2>Made in 2020 - 2021</h2><br>
+    <h3>Addition Calculator</h3>
+    <div class="question">
+      <input type="number" id="addendOne"> + <input type="number" id="addendTwo"><br><br>
+      <button onclick="writeSum()"><strong>Answer</strong></button>
+    </div>
+    <p id="sum"></p><br>
+    <h3>Subtraction Calculator</h3>
+    <div class="question">
+      <input type="number" id="minuend"> - <input type="number" id="subtrahend"><br><br>
+      <button onclick="writeDifference()"><strong>Answer</strong></button>
+    </div>
+    <p id="difference"></p><br>
+    <h3>Multiplication Calculator</h3>
+    <div class="question">
+      <input type="number" id="multiplicand"> × <input type="number" id="multiplier"><br><br>
+      <button onclick="writeProduct()"><strong>Answer</strong></button>
+    </div>
+    <p id="product"></p><br>
+    <h3>Division Calculator</h3>
+    <div class="question">
+      <input type="number" id="dividend"> ÷ <input type="number" id="divisor"><br><br>
+      <button onclick="writeQuotient()"><strong>Answer</strong></button>
+    </div>
+    <p id="quotient"></p><br>
+  </body>
+</html>
