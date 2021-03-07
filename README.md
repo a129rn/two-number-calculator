@@ -11,4 +11,8 @@ A two number calculator that works with the four basic operations: addition, sub
 
 * Does not support decimals (will be supported in a future update).
 
+### Enhancements to Make
+
+* Dark/Light Mode
+
 **To see more, go to the [issues page](https://github.com/a129rn/two-number-calculator/issues).**
