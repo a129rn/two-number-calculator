@@ -7,7 +7,9 @@ A two number calculator that works with the four basic operations: addition, sub
 
 [a129rn.github.io/two-number-calculator](https://a129rn.github.io/two-number-calculator)
 
-## Current Issues
+## Changes to Make
+
+### Bugs
 
 * Does not support decimals (will be supported in a future update).
 
