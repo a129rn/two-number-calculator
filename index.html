@@ -2,38 +2,48 @@
 <html>
   <head>
     <title>Two Number Calculator</title>
-    <script src="https://a129rn.github.io/two-number-calculator/two-number.js"></script>
+    <!-- JavaScript File -->
+    <script src="http://a129rn.github.io/two-number-calculator/two-number.js" defer></script>
+    <!-- Montserrat Font Links -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link href="https://a129rn.github.io/two-number-calculator/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- CSS File -->
+    <link href="http://a129rn.github.io/two-number-calculator/main.css" rel="stylesheet">
   </head>
-  <body>
+  <body id="body">
     <h1>Two Number Calculator</h1>
-    <h2>Made in 2020 - 2021</h2>
-    <a href="https://github.com/a129rn/two-number-calculator/"><img src="https://lh3.googleusercontent.com/-G1lXMjaqQsI/YDLJMJspuYI/AAAAAAAABfg/aJLbeNJD8ZoFSg08K8Neft2_cMekrCqZwCK8BGAsYHg/s0/GitHub-Mark-32px.png"></a>
+    <h2>Made from 2020 - 2021</h2>
+    <a href="https://github.com/a129rn/two-number-calculator/"><img id="github" src="https://i.imgur.com/hGhvyXU.png" alt="Link to Github"></a>
     <h3>Addition Calculator</h3>
     <div class="question">
       <input type="number" id="addendOne"> + <input type="number" id="addendTwo"><br><br>
-      <button onclick="writeSum()"><strong>Answer</strong></button>
+      <button class="light-buttons" id="addition-button"><strong>Answer</strong></button>
     </div>
     <p id="sum"></p><br>
     <h3>Subtraction Calculator</h3>
     <div class="question">
       <input type="number" id="minuend"> - <input type="number" id="subtrahend"><br><br>
-      <button onclick="writeDifference()"><strong>Answer</strong></button>
+      <button class="light-buttons" id="subtraction-button"><strong>Answer</strong></button>
     </div>
     <p id="difference"></p><br>
     <h3>Multiplication Calculator</h3>
     <div class="question">
       <input type="number" id="multiplicand"> × <input type="number" id="multiplier"><br><br>
-      <button onclick="writeProduct()"><strong>Answer</strong></button>
+      <button class="light-buttons" id="multiplication-button"><strong>Answer</strong></button>
     </div>
     <p id="product"></p><br>
     <h3>Division Calculator</h3>
     <div class="question">
       <input type="number" id="dividend"> ÷ <input type="number" id="divisor"><br><br>
-      <button onclick="writeQuotient()"><strong>Answer</strong></button>
+      <button class="light-buttons" id="division-button"><strong>Answer</strong></button>
     </div>
     <p id="quotient"></p><br>
+    <div id="popup">
+      <p id="dark-mode"><strong>Dark Mode</strong></p>
+      <label class="switch">
+        <input id="checkbox" type="checkbox">
+        <div class="slider round"></div>
+      </label>
+    </div>
   </body>
 </html>
